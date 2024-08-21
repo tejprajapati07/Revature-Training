@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tej Narayan Prajapati - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #34495e;
+            overflow: hidden;
+            text-align: center;
+        }
+        nav a {
+            display: inline-block;
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #2c3e50;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .profile {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+        .profile h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .profile p {
+            font-size: 1.2em;
+            margin: 5px 0;
+        }
+        h2.section-title {
+            font-size: 2em;
+            color: #2c3e50;
+            border-bottom: 3px solid #4CAF50;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .skills, .projects, .education, .achievements, .training {
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        .skills ul, .achievements ul, .training ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills ul li, .achievements ul li, .training ul li {
+            background-color: #ecf0f1;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .projects ul {
+            list-style: none;
+            padding: 0;
+        }
+        .projects ul li {
+            margin-bottom: 20px;
+        }
+        .projects ul li h3 {
+            margin-bottom: 10px;
+            color: #4CAF50;
+        }
+        .projects ul li p {
+            margin: 5px 0;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tej Narayan Prajapati</h1>
+        <p>B. Tech (Computer Science Engineering)</p>
+        <p>Lucknow, Uttar Pradesh, India</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#training">Training</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="about" class="section profile">
+            <img src="D:\My files\Tej_pic.jpeg" alt="Tej Narayan Prajapati">
+            <h2>About Me</h2>
+            <p>To work in a challenging atmosphere with an organization where I can utilize my skills and attribute to the growth of the organization, which provides ample opportunity for learning and growth.</p>
+        </section>
+
+        <section id="education" class="section education">
+            <h2 class="section-title">Education</h2>
+            <table>
+                <tr>
+                    <th>S.no</th>
+                    <th>Institute/School</th>
+                    <th>Degree/Board</th>
+                    <th>Marks</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Babu Banarasi Das Institute of Technology and Management, Lucknow</td>
+                    <td>B. Tech (CSE)</td>
+                    <td>81.4%</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>St. Thomas College, Lucknow</td>
+                    <td>XII (ISC)</td>
+                    <td>82.4%</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>St. Thomas College, Lucknow</td>
+                    <td>X (ICSE)</td>
+                    <td>75.6%</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="skills" class="section skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li><strong>Programming Languages:</strong> Java, Python, HTML, SQL.</li>
+                <li><strong>Database:</strong> MySQL, PostgreSQL.</li>
+                <li><strong>Operating Systems:</strong> Windows 10/11.</li>
+                <li><strong>Frameworks:</strong> Django, GIT, GitHub.</li>
+                <li><strong>Software:</strong> Eclipse, Visual Studio, Jupyter, Python IDE, MS Office.</li>
+                <li><strong>Other Skills:</strong> Machine Learning, Data Analysis, Power BI, Web Development, CSS.</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="section projects">
+            <h2 class="section-title">Projects</h2>
+            <ul>
+                <li>
+                    <h3>Fake Social Media Profile Detection – BBDITM (Jan 2024 – June 2024)</h3>
+                    <p>Developed a project focused on detecting fake social media profiles using machine learning algorithms. The system identifies and flags suspicious profiles, enhancing online safety and ensuring authenticity.</p>
+                    <p><strong>Technologies Used:</strong> Django, TensorFlow, Keras, Pandas and NumPy, HTML, CSS, JavaScript, Bootstrap, Tailwind, SQLite.</p>
+                </li>
+                <li>
+                    <h3>Dairy Product Ecommerce Website – Self (Feb 2023 - Oct 2023)</h3>
+                    <p>Developed a dynamic, user-friendly ecommerce website for dairy products, with a responsive design that ensures accessibility across various devices.</p>
+                    <p><strong>Technologies Used:</strong> Python, Django, HTML5, CSS, Bootstrap, Tailwind, JavaScript, SQLite.</p>
+                </li>
+                <li>
+                    <h3>Student Study Portal – Self (Aug 2022 - Dec 2022)</h3>
+                    <p>Created an all-in-one tool integrating resources like Wikipedia, dictionary, YouTube, note-taking, and homework assistance into a single platform, aimed at reducing time spent switching between tabs.</p>
+                    <p><strong>Technologies Used:</strong> Python, Django, VS Code, Bootstrap, JavaScript.</p>
+                </li>
+                <li>
+                    <h3>Dashboard On Super Store Sales Analysis – Self (Jun 2022 – Jul 2022)</h3>
+                    <p>Developed an interactive Sales Dashboard using Power BI, designed to perform Sales Forecasting and deliver valuable insights to drive business success.</p>
+                    <p><strong>Technologies Used:</strong> Power BI, Time Series Analysis.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="achievements" class="section achievements">
+            <h2 class="section-title">Achievements</h2>
+            <ul>
+                <li>Participated in various Student Development Programs and Hackathons.</li>
+                <li>Participated in events related to AI, Data Science & GDSC.</li>
+                <li>Achieved 2nd position in creative rangoli making.</li>
+                <li>Participated in Poster Making competition.</li>
+            </ul>
+        </section>
+
+        <section id="training" class="section training">
+            <h2 class="section-title">Internships/Training</h2>
+            <ul>
+                <li>6 weeks online training on Python Programming from Internshala.</li>
+                <li>2-month online training with TCS ion Career Edge – Young Professional from Tata Consultancy Services.</li>
+                <li>1-month online training on Data Analytics (Google Certification).</li>
+                <li>1-month online training on Python for Data Science & Development from Coursera.</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tej Narayan Prajapati. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
